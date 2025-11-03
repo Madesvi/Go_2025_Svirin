@@ -11,8 +11,7 @@ function handleRequest() {
     # 4) Send the response to the named pipe (FIFO)
 
 	while read line; do
-    		echo $line
-    		trline=`echo $line | tr -d '[\r\n]'`
+    		trline=$(echo "$line" | tr -d '[\r\n]')
 
     		if [ -z "$trline" ]; then
       			break
@@ -26,15 +25,18 @@ function handleRequest() {
   	done
 
 	case "$REQUEST" in                                                                   
-		"GET /") RESPONSE="HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n</h1>PONG</h1>" ;;
-			*) RESPONSE="HTTP/1.1 404 NotFound\r\n\r\n\r\nNot Found" ;;
+		"GET /") RESPONSE="HTTP/1.1 200 OK\r\nContent-Type: text/html\r\n\r\n<h1>PONG</h1>" 
+				;;
+		*) 
+			RESPONSE="HTTP/1.1 404 Not Found\r\nContent-Type: text/html\r\n\r\n<h1>Not Found</h1>"
+				;;
  	esac
 
 	echo -e $RESPONSE > response
-
-  	echo -e 'HTTP/1.1 200\r\n\r\n\r\n</h1>PONG</h1>' > response
 }
 
 echo 'Listening on 3000...'
 
-cat response | nc -lN 3000 | handleRequest
+while true; do
+	cat response | nc -l 3000 | handleRequest
+done
