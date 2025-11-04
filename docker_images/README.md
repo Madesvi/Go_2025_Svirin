@@ -7,3 +7,7 @@
 ```bash
 docker run --rm madesvi/greeting_image:latest
 ```
+
+## О сервере
+
+Сервер находится на этапе отладки, спасибо macos )
