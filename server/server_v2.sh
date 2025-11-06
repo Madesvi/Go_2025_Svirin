@@ -8,7 +8,7 @@ mkfifo response
 
 function handle_GET_home() {
   RESPONSE=$(cat home.html | \
-    sed "s/{{$COOKIE_NAME}}/$COOKIE_VALUE/")
+    sed "s/{{$COOKIE_NAME}}/$COOKIE_VALUE/g")
 }
 
 function handle_GET_login() {
