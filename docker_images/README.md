@@ -8,6 +8,17 @@
 docker run --rm madesvi/greeting_image:latest
 ```
 
-## О сервере
+## shell-server
 
-Сервер находится на этапе отладки, спасибо macos )
+Скачивание и запуск
+
+```
+docker pull madesvi/shell-server:latest
+docker run -p 3000:3000 madesvi/shell-server:latest
+```
+
+## Link
+
+```
+https://hub.docker.com/r/madesvi/shell-server
+```
