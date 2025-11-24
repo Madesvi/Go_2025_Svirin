@@ -1,11 +1,11 @@
-package tasks
+package task2
 
 import (
 	"fmt"
 	"strconv"
 )
 
-func Solution2() {
+func Solution() {
 
 	// === taks 2 ===
 	// age := "23"
@@ -57,7 +57,7 @@ func Solution2() {
 	fmt.Println(toBoolFrom_0_1(a))
 	fmt.Println(toBoolFrom_0_1(b))
 	str := strconv.FormatBool(toBoolFrom_0_1(b))
-	fmt.Printf("From Boolean to string: %s, check type: %T", str, str)
+	fmt.Printf("From Boolean to string: %s, check type: %T\n", str, str)
 }
 
 func toBoolFrom_0_1(num int) bool {

@@ -1,8 +1,7 @@
-package tasks
+package task1
 
 import "fmt"
 
-// UPPERCASE FOR IMPORT
 func Solution() {
 	//=== task 1 ===
 	var num int32
