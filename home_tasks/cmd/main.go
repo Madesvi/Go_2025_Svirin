@@ -1,8 +1,6 @@
 package main
 
-import (
-	"home_tasks/pkg/task9"
-)
+import "home_tasks/pkg/task10"
 
 func main() {
 
@@ -14,6 +12,7 @@ func main() {
 	// task6.Solution()
 	// task7.Solution()
 	// task8.Solution()
-	task9.Solution()
+	// task9.Solution()
+	task10.Solution()
 
 }
