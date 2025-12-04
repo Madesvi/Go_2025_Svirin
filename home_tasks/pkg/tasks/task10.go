@@ -1,11 +1,11 @@
-package task10
+package tasks
 
 import "fmt"
 
-func Solution() {
+func SolutionTasks10() {
 
 	// A четное или нет
-	a := 2
+	a := 3
 
 	if a%2 == 0 {
 		fmt.Printf("Число %d чётное - %t\n", a, true)

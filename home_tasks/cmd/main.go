@@ -1,18 +1,20 @@
 package main
 
-import "home_tasks/pkg/task10"
+import (
+	"home_tasks/pkg/tasks"
+)
 
 func main() {
 
-	// task1.Solution()
-	// task2.Solution()
-	// task3.Solution()
-	// task4.Solution()
-	// task5.Solution()
-	// task6.Solution()
-	// task7.Solution()
-	// task8.Solution()
-	// task9.Solution()
-	task10.Solution()
+	// tasks.SolutionTasks1()
+	// tasks.SolutionTasks2()
+	// tasks.SolutionTasks3()
+	// tasks.SolutionTasks4()
+	// tasks.SolutionTasks5()
+	// tasks.SolutionTasks6()
+	// tasks.SolutionTasks7()
+	// tasks.SolutionTasks8()
+	// tasks.SolutionTasks9()
+	tasks.SolutionTasks10()
 
 }

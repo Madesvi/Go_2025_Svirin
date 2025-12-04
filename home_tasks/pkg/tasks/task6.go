@@ -1,10 +1,10 @@
-package task6
+package tasks
 
 import (
 	"fmt"
 )
 
-func Solution() {
+func SolutionTasks6() {
 	var a int64
 	fmt.Print("Введите сторону квадрата:")
 	_, err := fmt.Scan(&a)

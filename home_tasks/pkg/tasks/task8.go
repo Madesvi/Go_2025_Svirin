@@ -1,8 +1,8 @@
-package task8
+package tasks
 
 import "fmt"
 
-func Solution() {
+func SolutionTasks8() {
 	// var a int64 = 1221
 
 	// div := a / 100

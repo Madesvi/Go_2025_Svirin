@@ -1,8 +1,8 @@
-package task9
+package tasks
 
 import "fmt"
 
-func Solution() {
+func SolutionTasks9() {
 	// Уравнение
 	// A * x + B = 0
 	// x = - (B / A)

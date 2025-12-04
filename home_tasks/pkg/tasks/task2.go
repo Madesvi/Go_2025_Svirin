@@ -1,11 +1,11 @@
-package task2
+package tasks
 
 import (
 	"fmt"
 	"strconv"
 )
 
-func Solution() {
+func SolutionTasks2() {
 
 	// === taks 2 ===
 	// age := "23"

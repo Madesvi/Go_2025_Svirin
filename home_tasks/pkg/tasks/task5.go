@@ -1,11 +1,11 @@
-package task5
+package tasks
 
 import (
 	"fmt"
 	"math"
 )
 
-func Solution() {
+func SolutionTasks5() {
 	a, b := 0, 0
 	fmt.Print("Введите первое число:")
 	_, err := fmt.Scan(&a)

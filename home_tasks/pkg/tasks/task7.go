@@ -1,8 +1,8 @@
-package task7
+package tasks
 
 import "fmt"
 
-func Solution() {
+func SolutionTasks7() {
 
 	// 0__(A)1______(B)4__________(C)7
 	// AC = C - A = 7 - 1 = 6

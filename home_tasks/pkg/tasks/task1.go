@@ -1,8 +1,8 @@
-package task1
+package tasks
 
 import "fmt"
 
-func Solution() {
+func SolutionTasks1() {
 	var num int32
 	var float_num float64
 	var boolean bool

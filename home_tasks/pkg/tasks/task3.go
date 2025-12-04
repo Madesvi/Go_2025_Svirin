@@ -1,8 +1,8 @@
-package task3
+package tasks
 
 import "fmt"
 
-func Solution() {
+func SolutionTasks3() {
 	// === task 3 ===
 	age := 36.6
 	temperature := 25

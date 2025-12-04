@@ -1,8 +1,8 @@
-package task4
+package tasks
 
 import "fmt"
 
-func Solution() {
+func SolutionTasks4() {
 	// x := 10
 	// y := 15
 	// z := 2
