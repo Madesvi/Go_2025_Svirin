@@ -17,20 +17,22 @@ func SolutionTasks12() {
 		4: "тонн",
 		5: "центнер",
 	}
-	fmt.Println(massType)
+	// fmt.Println(massType)
 	// var bodyMass int
 
 	bodyMassNum := 1
 	bodyMass := 5
 
 	for k, v := range massType {
-		switch bodyMassNum {
-		case k:
-			{
-				fmt.Printf("Масса тела bodyMass равна: %d %s\n", bodyMass, v)
-			}
+		if k == bodyMassNum {
+			fmt.Printf("Масса тела bodyMass равна: %d %s\n", bodyMass, v)
 		}
-
 	}
 
+	// 	switch bodyMassNum {
+	// case k:
+	// 	{
+	// 		fmt.Printf("Масса тела bodyMass равна: %d %s\n", bodyMass, v)
+	// 	}
+	// }
 }
