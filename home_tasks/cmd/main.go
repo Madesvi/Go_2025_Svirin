@@ -1,8 +1,6 @@
 package main
 
-import (
-	"home_tasks/pkg/tasks"
-)
+import "home_tasks/pkg/tasks"
 
 func main() {
 

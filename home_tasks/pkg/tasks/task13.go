@@ -17,7 +17,7 @@ func SolutionTasks13() {
 	fmt.Scan(&enteredYear)
 
 	deltaYear := (enteredYear - baseYear) % 60
-	colorIndex := (deltaYear / 12) % 5
+	colorIndex := (deltaYear / 2) % 5
 	animalIndex := deltaYear % 12
 
 	fmt.Printf("Год: %s %s\n", colors[colorIndex], animals[animalIndex])
