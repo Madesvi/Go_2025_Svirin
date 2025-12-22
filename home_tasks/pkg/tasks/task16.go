@@ -77,16 +77,16 @@ func SolutionTasks16() {
 	// fmt.Println(person2.aboutPerson())
 	// fmt.Println(person2.GetHP())
 
-	randomNum := rand.Intn(100) + 1
-	// fmt.Printf("Случайное число от 1 до 99: %d\n", randomNum)
-	person1.PersonInfo.attack(person2, randomNum)
-	randomNum = rand.Intn(100) + 1
-	// fmt.Printf("Случайное число от 1 до 99: %d\n", randomNum)
-	person2.PersonInfo.attack(person1, randomNum)
-	randomNum = rand.Intn(100) + 1
-	// fmt.Printf("Случайное число от 1 до 99: %d\n", randomNum)
-	person1.PersonInfo.attack(person2, randomNum)
-	randomNum = rand.Intn(100) + 1
-	// fmt.Printf("Случайное число от 1 до 99: %d\n", randomNum)
-	person2.PersonInfo.attack(person1, randomNum)
+	randomDamage := rand.Intn(100) + 1
+	// fmt.Printf("Случайное число от 1 до 99: %d\n", randomDamage)
+	person1.PersonInfo.attack(person2, randomDamage)
+	randomDamage = rand.Intn(100) + 1
+	// fmt.Printf("Случайное число от 1 до 99: %d\n", randomDamage)
+	person2.PersonInfo.attack(person1, randomDamage)
+	randomDamage = rand.Intn(100) + 1
+	// fmt.Printf("Случайное число от 1 до 99: %d\n", randomDamage)
+	person1.PersonInfo.attack(person2, randomDamage)
+	randomDamage = rand.Intn(100) + 1
+	// fmt.Printf("Случайное число от 1 до 99: %d\n", randomDamage)
+	person2.PersonInfo.attack(person1, randomDamage)
 }
