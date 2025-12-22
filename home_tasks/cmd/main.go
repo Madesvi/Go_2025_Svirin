@@ -17,6 +17,8 @@ func main() {
 	// tasks.SolutionTasks11()
 	// tasks.SolutionTasks12()
 	// tasks.SolutionTasks13()
-	tasks.SolutionTasks14()
+	// tasks.SolutionTasks14()
+	// tasks.SolutionTasks15()
+	tasks.SolutionTasks16()
 
 }
