@@ -24,7 +24,7 @@ func SolutionTasks14() {
 			// fmt.Println("Минимальных расстояний нет")
 		} else if len(v) >= 2 {
 			// fmt.Printf("Для числа:%v можно найти минимальное расстояние\n", k)
-			minDistance := len(mass) + 1
+			minDistance := len(mass)
 			var index1 int
 			var index2 int
 			for i := 0; i < len(v)-1; i++ {
