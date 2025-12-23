@@ -15,16 +15,17 @@ func SolutionTasks17() {
 
 	var online_users []string
 
-	onlineMap := make(map[string]bool)
+	offlineMap := make(map[string]bool)
 
 	for _, user := range offline_users {
-		onlineMap[user] = true
+		offlineMap[user] = true
 	}
+	fmt.Printf("offlineMap: %v\n", offlineMap)
 
 	for _, user := range all_users {
-		if !onlineMap[user] {
+		if !offlineMap[user] {
 			online_users = append(online_users, user)
 		}
 	}
-	fmt.Println(online_users)
+	fmt.Printf("Пользователи онлайн: %v\n", online_users)
 }
